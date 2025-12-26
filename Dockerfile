@@ -9,14 +9,8 @@ RUN apt-get update && apt-get install -y \
 
 RUN pip3 install opencv-contrib-python-headless
 
-WORKDIR /ros2_ws/src
-COPY . /ros2_ws/src/robot_control_interface
-
-WORKDIR /ros2_ws
-RUN . /opt/ros/humble/setup.sh && colcon build
-
 COPY ./entrypoint.sh /
 RUN chmod +x /entrypoint.sh
-ENTRYPOINT [".entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
 
 #CMD ["ros2", "launch", "robot_control_interface", "start_interface.launch.py"]
