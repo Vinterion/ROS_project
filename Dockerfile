@@ -1,16 +1,26 @@
-FROM osrf/ros:humble-desktop
+FROM osrf/ros:rolling-desktop
 
 RUN apt-get update && apt-get install -y \
     python3-pip \
-    ros-humble-cv-bridge \
-    ros-humble-usb-cam \
+    ros-rolling-cv-bridge \
+   # ros-humble-usb-cam \
     ros-rolling-ur \
     && rm -rf /var/lib/apt/lists/*
 
-RUN pip3 install opencv-contrib-python-headless
+RUN pip3 install "numpy<2" opencv-contrib-python-headless --break-system-packages
 
-COPY ./entrypoint.sh /
-RUN chmod +x /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+WORKDIR /ros2_ws
+RUN source /opt/ros/rolling/setup.sh
+RUN colcon build
+RUN source ./install/setup.sh
 
-#CMD ["ros2", "launch", "robot_control_interface", "start_interface.launch.py"]
+WORKDIR /ros2_ws/src
+RUN ros2 pkg create ros_project --build-type ament_python --dependencies cv_bridge python3-opencv sensor_msgs geometry_msgs
+COPY /src/ros_project/robot_cont.py /ros2_ws/src/ros_project/ros_project/robot_cont.py
+COPY /src/ros_project/camera_subs.py /ros2_ws/src/ros_project/ros_project/camera_subs.py
+COPY /src/start.launch /ros2_ws/src/ros_project/launch/start.launch
+
+WORKDIR /ros2_ws
+RUN colcon build
+
+#RUN ros2  launch ros_project /src/launch.py

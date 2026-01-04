@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="ros_project" type="camera_subs.py" name="camera_subs" /> 
+    <node pkg="ros_project" type="robot_cont.py" name="robot_cont" output="screen" /> 
+</launch>
