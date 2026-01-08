@@ -1,0 +1,37 @@
+[1.117s] Invoking command in '/home/pw/Downloads/rospw/src/camera_subscriber': PYTHONPATH=/home/pw/Downloads/rospw/build/camera_subscriber/prefix_override:/home/pw/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pw/Downloads/rospw/install/camera_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_subscriber build --build-base /home/pw/Downloads/rospw/build/camera_subscriber/build install --record /home/pw/Downloads/rospw/build/camera_subscriber/install.log --single-version-externally-managed install_data
+[1.583s] running egg_info
+[1.584s] creating ../../build/camera_subscriber/camera_subscriber.egg-info
+[1.584s] writing ../../build/camera_subscriber/camera_subscriber.egg-info/PKG-INFO
+[1.584s] writing dependency_links to ../../build/camera_subscriber/camera_subscriber.egg-info/dependency_links.txt
+[1.585s] writing entry points to ../../build/camera_subscriber/camera_subscriber.egg-info/entry_points.txt
+[1.585s] writing requirements to ../../build/camera_subscriber/camera_subscriber.egg-info/requires.txt
+[1.585s] writing top-level names to ../../build/camera_subscriber/camera_subscriber.egg-info/top_level.txt
+[1.585s] writing manifest file '../../build/camera_subscriber/camera_subscriber.egg-info/SOURCES.txt'
+[1.590s] reading manifest file '../../build/camera_subscriber/camera_subscriber.egg-info/SOURCES.txt'
+[1.590s] writing manifest file '../../build/camera_subscriber/camera_subscriber.egg-info/SOURCES.txt'
+[1.590s] running build
+[1.591s] running build_py
+[1.591s] creating /home/pw/Downloads/rospw/build/camera_subscriber/build
+[1.591s] creating /home/pw/Downloads/rospw/build/camera_subscriber/build/lib
+[1.591s] creating /home/pw/Downloads/rospw/build/camera_subscriber/build/lib/camera_subscriber
+[1.591s] copying camera_subscriber/__init__.py -> /home/pw/Downloads/rospw/build/camera_subscriber/build/lib/camera_subscriber
+[1.591s] copying camera_subscriber/camera_node.py -> /home/pw/Downloads/rospw/build/camera_subscriber/build/lib/camera_subscriber
+[1.592s] running install
+[1.592s] running install_lib
+[1.593s] creating /home/pw/Downloads/rospw/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber
+[1.593s] copying /home/pw/Downloads/rospw/build/camera_subscriber/build/lib/camera_subscriber/__init__.py -> /home/pw/Downloads/rospw/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber
+[1.594s] copying /home/pw/Downloads/rospw/build/camera_subscriber/build/lib/camera_subscriber/camera_node.py -> /home/pw/Downloads/rospw/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber
+[1.595s] byte-compiling /home/pw/Downloads/rospw/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber/__init__.py to __init__.cpython-310.pyc
+[1.596s] byte-compiling /home/pw/Downloads/rospw/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber/camera_node.py to camera_node.cpython-310.pyc
+[1.596s] running install_data
+[1.596s] creating /home/pw/Downloads/rospw/install/camera_subscriber/share/ament_index
+[1.600s] creating /home/pw/Downloads/rospw/install/camera_subscriber/share/ament_index/resource_index
+[1.600s] creating /home/pw/Downloads/rospw/install/camera_subscriber/share/ament_index/resource_index/packages
+[1.600s] copying resource/camera_subscriber -> /home/pw/Downloads/rospw/install/camera_subscriber/share/ament_index/resource_index/packages
+[1.600s] copying package.xml -> /home/pw/Downloads/rospw/install/camera_subscriber/share/camera_subscriber
+[1.600s] running install_egg_info
+[1.600s] Copying ../../build/camera_subscriber/camera_subscriber.egg-info to /home/pw/Downloads/rospw/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber-0.0.0-py3.10.egg-info
+[1.603s] running install_scripts
+[1.628s] Installing camera_node script to /home/pw/Downloads/rospw/install/camera_subscriber/lib/camera_subscriber
+[1.628s] writing list of installed files to '/home/pw/Downloads/rospw/build/camera_subscriber/install.log'
+[1.667s] Invoked command in '/home/pw/Downloads/rospw/src/camera_subscriber' returned '0': PYTHONPATH=/home/pw/Downloads/rospw/build/camera_subscriber/prefix_override:/home/pw/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pw/Downloads/rospw/install/camera_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_subscriber build --build-base /home/pw/Downloads/rospw/build/camera_subscriber/build install --record /home/pw/Downloads/rospw/build/camera_subscriber/install.log --single-version-externally-managed install_data

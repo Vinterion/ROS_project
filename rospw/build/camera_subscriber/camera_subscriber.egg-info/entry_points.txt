@@ -1,0 +1,4 @@
+[console_scripts]
+camera_node = camera_subscriber.camera_node:main
+turtle = camera_subscriber.turtle:main
+

@@ -1,0 +1,58 @@
+[0.981s] Invoking command in '/home/student/rospw/src/sensors_demos_gazebo': PYTHONPATH=/home/student/rospw/src/build/sensors_demos_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/rospw/src/install/sensors_demos_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sensors_demos_gazebo build --build-base /home/student/rospw/src/build/sensors_demos_gazebo/build install --record /home/student/rospw/src/build/sensors_demos_gazebo/install.log --install-scripts $base/lib/sensors_demos_gazebo --single-version-externally-managed install_data
+[1.114s] /home/student/.local/lib/python3.10/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[1.114s] !!
+[1.114s] 
+[1.114s]         ********************************************************************************
+[1.114s]         Usage of dash-separated 'script-dir' will not be supported in future
+[1.114s]         versions. Please use the underscore name 'script_dir' instead.
+[1.114s] 
+[1.114s]         This deprecation is overdue, please update your project and remove deprecated
+[1.114s]         calls to avoid build errors in the future.
+[1.114s] 
+[1.114s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.114s]         ********************************************************************************
+[1.114s] 
+[1.115s] !!
+[1.115s]   opt = self.warn_dash_deprecation(opt, section)
+[1.232s] running egg_info
+[1.232s] creating ../build/sensors_demos_gazebo/sensors_demos_gazebo.egg-info
+[1.248s] writing ../build/sensors_demos_gazebo/sensors_demos_gazebo.egg-info/PKG-INFO
+[1.248s] writing dependency_links to ../build/sensors_demos_gazebo/sensors_demos_gazebo.egg-info/dependency_links.txt
+[1.249s] writing requirements to ../build/sensors_demos_gazebo/sensors_demos_gazebo.egg-info/requires.txt
+[1.249s] writing top-level names to ../build/sensors_demos_gazebo/sensors_demos_gazebo.egg-info/top_level.txt
+[1.249s] writing manifest file '../build/sensors_demos_gazebo/sensors_demos_gazebo.egg-info/SOURCES.txt'
+[1.282s] reading manifest file '../build/sensors_demos_gazebo/sensors_demos_gazebo.egg-info/SOURCES.txt'
+[1.283s] writing manifest file '../build/sensors_demos_gazebo/sensors_demos_gazebo.egg-info/SOURCES.txt'
+[1.283s] running build
+[1.283s] running build_py
+[1.284s] creating /home/student/rospw/src/build/sensors_demos_gazebo/build
+[1.284s] creating /home/student/rospw/src/build/sensors_demos_gazebo/build/lib
+[1.284s] creating /home/student/rospw/src/build/sensors_demos_gazebo/build/lib/sensors_demos_gazebo
+[1.284s] copying sensors_demos_gazebo/__init__.py -> /home/student/rospw/src/build/sensors_demos_gazebo/build/lib/sensors_demos_gazebo
+[1.284s] running install
+[1.289s] running install_lib
+[1.306s] creating /home/student/rospw/src/install/sensors_demos_gazebo/lib/python3.10/site-packages/sensors_demos_gazebo
+[1.306s] copying /home/student/rospw/src/build/sensors_demos_gazebo/build/lib/sensors_demos_gazebo/__init__.py -> /home/student/rospw/src/install/sensors_demos_gazebo/lib/python3.10/site-packages/sensors_demos_gazebo
+[1.306s] byte-compiling /home/student/rospw/src/install/sensors_demos_gazebo/lib/python3.10/site-packages/sensors_demos_gazebo/__init__.py to __init__.cpython-310.pyc
+[1.307s] running install_data
+[1.307s] creating /home/student/rospw/src/install/sensors_demos_gazebo/share/ament_index
+[1.307s] creating /home/student/rospw/src/install/sensors_demos_gazebo/share/ament_index/resource_index
+[1.307s] creating /home/student/rospw/src/install/sensors_demos_gazebo/share/ament_index/resource_index/packages
+[1.307s] copying resource/sensors_demos_gazebo -> /home/student/rospw/src/install/sensors_demos_gazebo/share/ament_index/resource_index/packages
+[1.307s] copying package.xml -> /home/student/rospw/src/install/sensors_demos_gazebo/share/sensors_demos_gazebo
+[1.307s] copying launch/kinect_launch.py -> /home/student/rospw/src/install/sensors_demos_gazebo/share/sensors_demos_gazebo
+[1.307s] copying launch/hokuyo_launch.py -> /home/student/rospw/src/install/sensors_demos_gazebo/share/sensors_demos_gazebo
+[1.307s] copying launch/ultrasonic_launch.py -> /home/student/rospw/src/install/sensors_demos_gazebo/share/sensors_demos_gazebo
+[1.308s] copying launch/imu_launch.py -> /home/student/rospw/src/install/sensors_demos_gazebo/share/sensors_demos_gazebo
+[1.308s] copying urdf/ultrasonic.urdf.xacro -> /home/student/rospw/src/install/sensors_demos_gazebo/share/sensors_demos_gazebo
+[1.308s] copying urdf/kinect.urdf.xacro -> /home/student/rospw/src/install/sensors_demos_gazebo/share/sensors_demos_gazebo
+[1.308s] copying urdf/imu.urdf.xacro -> /home/student/rospw/src/install/sensors_demos_gazebo/share/sensors_demos_gazebo
+[1.308s] copying urdf/hokuyo.urdf.xacro -> /home/student/rospw/src/install/sensors_demos_gazebo/share/sensors_demos_gazebo
+[1.308s] creating /home/student/rospw/src/install/sensors_demos_gazebo/share/sensors_demos_gazebo/meshes
+[1.308s] copying meshes/kinect.dae -> /home/student/rospw/src/install/sensors_demos_gazebo/share/sensors_demos_gazebo/meshes
+[1.309s] copying meshes/utm30.dae -> /home/student/rospw/src/install/sensors_demos_gazebo/share/sensors_demos_gazebo/meshes
+[1.310s] running install_egg_info
+[1.328s] Copying ../build/sensors_demos_gazebo/sensors_demos_gazebo.egg-info to /home/student/rospw/src/install/sensors_demos_gazebo/lib/python3.10/site-packages/sensors_demos_gazebo-0.0.0-py3.10.egg-info
+[1.328s] running install_scripts
+[1.469s] writing list of installed files to '/home/student/rospw/src/build/sensors_demos_gazebo/install.log'
+[1.493s] Invoked command in '/home/student/rospw/src/sensors_demos_gazebo' returned '0': PYTHONPATH=/home/student/rospw/src/build/sensors_demos_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/rospw/src/install/sensors_demos_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sensors_demos_gazebo build --build-base /home/student/rospw/src/build/sensors_demos_gazebo/build install --record /home/student/rospw/src/build/sensors_demos_gazebo/install.log --install-scripts $base/lib/sensors_demos_gazebo --single-version-externally-managed install_data

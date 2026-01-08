@@ -1,0 +1,2 @@
+Invoking command in '/home/pw/Desktop/rospw/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pw/Desktop/rospw/build/usb_cam -- -j4 -l4
+Invoked command in '/home/pw/Desktop/rospw/build/usb_cam' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pw/Desktop/rospw/build/usb_cam -- -j4 -l4

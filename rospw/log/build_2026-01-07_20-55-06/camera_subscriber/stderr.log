@@ -1,0 +1,5 @@
+  File "/home/pw/Downloads/rospw/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber/camera_node.py", line 26
+    cv2.setMouseCallback(self.window_name, self.draw_rectangle, print("Klik")
+                        ^
+SyntaxError: '(' was never closed
+

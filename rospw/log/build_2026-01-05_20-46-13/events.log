@@ -1,0 +1,409 @@
+[0.000000] (-) TimerEvent: {}
+[0.000595] (camera_subscriber) JobQueued: {'identifier': 'camera_subscriber', 'dependencies': OrderedDict()}
+[0.000637] (sensors_demos_gazebo) JobQueued: {'identifier': 'sensors_demos_gazebo', 'dependencies': OrderedDict()}
+[0.000660] (usb_cam) JobQueued: {'identifier': 'usb_cam', 'dependencies': OrderedDict()}
+[0.000680] (camera_subscriber) JobStarted: {'identifier': 'camera_subscriber'}
+[0.009642] (sensors_demos_gazebo) JobStarted: {'identifier': 'sensors_demos_gazebo'}
+[0.016329] (usb_cam) JobStarted: {'identifier': 'usb_cam'}
+[0.099795] (-) TimerEvent: {}
+[0.200088] (-) TimerEvent: {}
+[0.300389] (-) TimerEvent: {}
+[0.400727] (-) TimerEvent: {}
+[0.501130] (-) TimerEvent: {}
+[0.569761] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'cmake'}
+[0.570329] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '/home/pw/Downloads/rospw/src/usb_cam', '-DCMAKE_INSTALL_PREFIX=/home/pw/Downloads/rospw/install/usb_cam'], 'cwd': '/home/pw/Downloads/rospw/build/usb_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pw'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pw/Downloads/rospw/install/usb_cam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pw'), ('OLDPWD', '/home/pw/Downloads/rospw'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1272'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=aaffc496fffca79e10696bd8695beccf'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pw/Downloads/rospw/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pw'), ('_', '/home/pw/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pw/.local/bin:/opt/ros/humble/bin:/home/pw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/PW:@/tmp/.ICE-unix/1272,unix/PW:/tmp/.ICE-unix/1272'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eadf21d5_d91b_462f_9066_ca7bf6e187c4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LZKFI3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.170'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pw/Downloads/rospw/install/usb_cam:/home/pw/Downloads/rospw/install/sensors_demos_gazebo:/home/pw/Downloads/rospw/install/camera_subscriber:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pw/Downloads/rospw/build/usb_cam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=aaffc496fffca79e10696bd8695beccf'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pw/Downloads/rospw/install/sensors_demos_gazebo/lib/python3.10/site-packages:/home/pw/Downloads/rospw/install/camera_subscriber/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pw/Downloads/rospw/install/usb_cam:/home/pw/Downloads/rospw/install/sensors_demos_gazebo:/home/pw/Downloads/rospw/install/camera_subscriber:/opt/ros/humble')]), 'shell': False}
+[0.601248] (-) TimerEvent: {}
+[0.668005] (usb_cam) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.701358] (-) TimerEvent: {}
+[0.770508] (usb_cam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.786958] (usb_cam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.801462] (-) TimerEvent: {}
+[0.901857] (-) TimerEvent: {}
+[0.903224] (usb_cam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.920094] (usb_cam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.920498] (usb_cam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.921245] (usb_cam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.926892] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.002274] (-) TimerEvent: {}
+[1.046644] (sensors_demos_gazebo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/sensors_demos_gazebo', 'build', '--build-base', '/home/pw/Downloads/rospw/build/sensors_demos_gazebo/build', 'install', '--record', '/home/pw/Downloads/rospw/build/sensors_demos_gazebo/install.log', '--install-scripts', '$base/lib/sensors_demos_gazebo', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pw/Downloads/rospw/src/sensors_demos_gazebo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pw', 'LC_TIME': 'pl_PL.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pw/Downloads/rospw/install/usb_cam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/pw', 'OLDPWD': '/home/pw/Downloads/rospw', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pl_PL.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1272', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=aaffc496fffca79e10696bd8695beccf', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pw/Downloads/rospw/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pw', '_': '/home/pw/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pw', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pw/.local/bin:/opt/ros/humble/bin:/home/pw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/PW:@/tmp/.ICE-unix/1272,unix/PW:/tmp/.ICE-unix/1272', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pl_PL.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/eadf21d5_d91b_462f_9066_ca7bf6e187c4', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pl_PL.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LZKFI3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.170', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pw/Downloads/rospw/install/usb_cam:/home/pw/Downloads/rospw/install/sensors_demos_gazebo:/home/pw/Downloads/rospw/install/camera_subscriber:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pl_PL.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pl_PL.UTF-8', 'LC_IDENTIFICATION': 'pl_PL.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pw/Downloads/rospw/build/sensors_demos_gazebo', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=aaffc496fffca79e10696bd8695beccf', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pw/Downloads/rospw/build/sensors_demos_gazebo/prefix_override:/home/pw/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pw/Downloads/rospw/install/sensors_demos_gazebo/lib/python3.10/site-packages:/home/pw/Downloads/rospw/install/sensors_demos_gazebo/lib/python3.10/site-packages:/home/pw/Downloads/rospw/install/camera_subscriber/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pl_PL.UTF-8', 'LC_PAPER': 'pl_PL.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/pw/Downloads/rospw/install/usb_cam'}, 'shell': False}
+[1.059422] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.075256] (usb_cam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.075675] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.076452] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.079402] (usb_cam) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[1.103931] (-) TimerEvent: {}
+[1.117046] (camera_subscriber) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/camera_subscriber', 'build', '--build-base', '/home/pw/Downloads/rospw/build/camera_subscriber/build', 'install', '--record', '/home/pw/Downloads/rospw/build/camera_subscriber/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pw/Downloads/rospw/src/camera_subscriber', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pw', 'LC_TIME': 'pl_PL.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pw/Downloads/rospw/install/usb_cam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/pw', 'OLDPWD': '/home/pw/Downloads/rospw', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pl_PL.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1272', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=aaffc496fffca79e10696bd8695beccf', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pw/Downloads/rospw/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pw', '_': '/home/pw/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pw', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pw/.local/bin:/opt/ros/humble/bin:/home/pw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/PW:@/tmp/.ICE-unix/1272,unix/PW:/tmp/.ICE-unix/1272', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pl_PL.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/eadf21d5_d91b_462f_9066_ca7bf6e187c4', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pl_PL.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LZKFI3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.170', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pw/Downloads/rospw/install/usb_cam:/home/pw/Downloads/rospw/install/sensors_demos_gazebo:/home/pw/Downloads/rospw/install/camera_subscriber:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pl_PL.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pl_PL.UTF-8', 'LC_IDENTIFICATION': 'pl_PL.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pw/Downloads/rospw/build/camera_subscriber', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=aaffc496fffca79e10696bd8695beccf', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pw/Downloads/rospw/build/camera_subscriber/prefix_override:/home/pw/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pw/Downloads/rospw/install/camera_subscriber/lib/python3.10/site-packages:/home/pw/Downloads/rospw/install/sensors_demos_gazebo/lib/python3.10/site-packages:/home/pw/Downloads/rospw/install/camera_subscriber/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pl_PL.UTF-8', 'LC_PAPER': 'pl_PL.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/pw/Downloads/rospw/install/usb_cam'}, 'shell': False}
+[1.205934] (-) TimerEvent: {}
+[1.272914] (usb_cam) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.306041] (-) TimerEvent: {}
+[1.406393] (-) TimerEvent: {}
+[1.460895] (sensors_demos_gazebo) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.461171] (sensors_demos_gazebo) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.475943] (sensors_demos_gazebo) StdoutLine: {'line': b'running egg_info\n'}
+[1.477012] (sensors_demos_gazebo) StdoutLine: {'line': b'creating ../../build/sensors_demos_gazebo/sensors_demos_gazebo.egg-info\n'}
+[1.477371] (sensors_demos_gazebo) StdoutLine: {'line': b'writing ../../build/sensors_demos_gazebo/sensors_demos_gazebo.egg-info/PKG-INFO\n'}
+[1.477715] (sensors_demos_gazebo) StdoutLine: {'line': b'writing dependency_links to ../../build/sensors_demos_gazebo/sensors_demos_gazebo.egg-info/dependency_links.txt\n'}
+[1.477933] (sensors_demos_gazebo) StdoutLine: {'line': b'writing entry points to ../../build/sensors_demos_gazebo/sensors_demos_gazebo.egg-info/entry_points.txt\n'}
+[1.478161] (sensors_demos_gazebo) StdoutLine: {'line': b'writing requirements to ../../build/sensors_demos_gazebo/sensors_demos_gazebo.egg-info/requires.txt\n'}
+[1.478290] (sensors_demos_gazebo) StdoutLine: {'line': b'writing top-level names to ../../build/sensors_demos_gazebo/sensors_demos_gazebo.egg-info/top_level.txt\n'}
+[1.478472] (sensors_demos_gazebo) StdoutLine: {'line': b"writing manifest file '../../build/sensors_demos_gazebo/sensors_demos_gazebo.egg-info/SOURCES.txt'\n"}
+[1.481642] (sensors_demos_gazebo) StdoutLine: {'line': b"reading manifest file '../../build/sensors_demos_gazebo/sensors_demos_gazebo.egg-info/SOURCES.txt'\n"}
+[1.483088] (sensors_demos_gazebo) StdoutLine: {'line': b"writing manifest file '../../build/sensors_demos_gazebo/sensors_demos_gazebo.egg-info/SOURCES.txt'\n"}
+[1.483428] (sensors_demos_gazebo) StdoutLine: {'line': b'running build\n'}
+[1.483741] (sensors_demos_gazebo) StdoutLine: {'line': b'running build_py\n'}
+[1.483904] (sensors_demos_gazebo) StdoutLine: {'line': b'creating /home/pw/Downloads/rospw/build/sensors_demos_gazebo/build\n'}
+[1.484124] (sensors_demos_gazebo) StdoutLine: {'line': b'creating /home/pw/Downloads/rospw/build/sensors_demos_gazebo/build/lib\n'}
+[1.484280] (sensors_demos_gazebo) StdoutLine: {'line': b'creating /home/pw/Downloads/rospw/build/sensors_demos_gazebo/build/lib/sensors_demos_gazebo\n'}
+[1.484421] (sensors_demos_gazebo) StdoutLine: {'line': b'copying sensors_demos_gazebo/__init__.py -> /home/pw/Downloads/rospw/build/sensors_demos_gazebo/build/lib/sensors_demos_gazebo\n'}
+[1.484553] (sensors_demos_gazebo) StdoutLine: {'line': b'running install\n'}
+[1.484764] (sensors_demos_gazebo) StdoutLine: {'line': b'running install_lib\n'}
+[1.485967] (sensors_demos_gazebo) StdoutLine: {'line': b'creating /home/pw/Downloads/rospw/install/sensors_demos_gazebo/lib/python3.10/site-packages/sensors_demos_gazebo\n'}
+[1.486221] (sensors_demos_gazebo) StdoutLine: {'line': b'copying /home/pw/Downloads/rospw/build/sensors_demos_gazebo/build/lib/sensors_demos_gazebo/__init__.py -> /home/pw/Downloads/rospw/install/sensors_demos_gazebo/lib/python3.10/site-packages/sensors_demos_gazebo\n'}
+[1.486935] (sensors_demos_gazebo) StdoutLine: {'line': b'byte-compiling /home/pw/Downloads/rospw/install/sensors_demos_gazebo/lib/python3.10/site-packages/sensors_demos_gazebo/__init__.py to __init__.cpython-310.pyc\n'}
+[1.487263] (sensors_demos_gazebo) StdoutLine: {'line': b'running install_data\n'}
+[1.487504] (sensors_demos_gazebo) StdoutLine: {'line': b'creating /home/pw/Downloads/rospw/install/sensors_demos_gazebo/share/ament_index\n'}
+[1.487695] (sensors_demos_gazebo) StdoutLine: {'line': b'creating /home/pw/Downloads/rospw/install/sensors_demos_gazebo/share/ament_index/resource_index\n'}
+[1.487913] (sensors_demos_gazebo) StdoutLine: {'line': b'creating /home/pw/Downloads/rospw/install/sensors_demos_gazebo/share/ament_index/resource_index/packages\n'}
+[1.488125] (sensors_demos_gazebo) StdoutLine: {'line': b'copying resource/sensors_demos_gazebo -> /home/pw/Downloads/rospw/install/sensors_demos_gazebo/share/ament_index/resource_index/packages\n'}
+[1.488277] (sensors_demos_gazebo) StdoutLine: {'line': b'copying package.xml -> /home/pw/Downloads/rospw/install/sensors_demos_gazebo/share/sensors_demos_gazebo\n'}
+[1.488476] (sensors_demos_gazebo) StdoutLine: {'line': b'copying launch/imu_launch.py -> /home/pw/Downloads/rospw/install/sensors_demos_gazebo/share/sensors_demos_gazebo\n'}
+[1.488699] (sensors_demos_gazebo) StdoutLine: {'line': b'copying launch/kinect_launch.py -> /home/pw/Downloads/rospw/install/sensors_demos_gazebo/share/sensors_demos_gazebo\n'}
+[1.488890] (sensors_demos_gazebo) StdoutLine: {'line': b'copying launch/ultrasonic_launch.py -> /home/pw/Downloads/rospw/install/sensors_demos_gazebo/share/sensors_demos_gazebo\n'}
+[1.489090] (sensors_demos_gazebo) StdoutLine: {'line': b'copying launch/hokuyo_launch.py -> /home/pw/Downloads/rospw/install/sensors_demos_gazebo/share/sensors_demos_gazebo\n'}
+[1.489286] (sensors_demos_gazebo) StdoutLine: {'line': b'copying urdf/hokuyo.urdf.xacro -> /home/pw/Downloads/rospw/install/sensors_demos_gazebo/share/sensors_demos_gazebo\n'}
+[1.489514] (sensors_demos_gazebo) StdoutLine: {'line': b'copying urdf/kinect.urdf.xacro -> /home/pw/Downloads/rospw/install/sensors_demos_gazebo/share/sensors_demos_gazebo\n'}
+[1.489695] (sensors_demos_gazebo) StdoutLine: {'line': b'copying urdf/imu.urdf.xacro -> /home/pw/Downloads/rospw/install/sensors_demos_gazebo/share/sensors_demos_gazebo\n'}
+[1.489827] (sensors_demos_gazebo) StdoutLine: {'line': b'copying urdf/ultrasonic.urdf.xacro -> /home/pw/Downloads/rospw/install/sensors_demos_gazebo/share/sensors_demos_gazebo\n'}
+[1.489988] (sensors_demos_gazebo) StdoutLine: {'line': b'creating /home/pw/Downloads/rospw/install/sensors_demos_gazebo/share/sensors_demos_gazebo/meshes\n'}
+[1.490118] (sensors_demos_gazebo) StdoutLine: {'line': b'copying meshes/utm30.dae -> /home/pw/Downloads/rospw/install/sensors_demos_gazebo/share/sensors_demos_gazebo/meshes\n'}
+[1.490926] (sensors_demos_gazebo) StdoutLine: {'line': b'copying meshes/kinect.dae -> /home/pw/Downloads/rospw/install/sensors_demos_gazebo/share/sensors_demos_gazebo/meshes\n'}
+[1.491548] (sensors_demos_gazebo) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.495061] (sensors_demos_gazebo) StdoutLine: {'line': b'Copying ../../build/sensors_demos_gazebo/sensors_demos_gazebo.egg-info to /home/pw/Downloads/rospw/install/sensors_demos_gazebo/lib/python3.10/site-packages/sensors_demos_gazebo-0.0.0-py3.10.egg-info\n'}
+[1.496503] (sensors_demos_gazebo) StdoutLine: {'line': b'running install_scripts\n'}
+[1.502346] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.506509] (-) TimerEvent: {}
+[1.507674] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.516956] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.531057] (usb_cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.534609] (sensors_demos_gazebo) StdoutLine: {'line': b"writing list of installed files to '/home/pw/Downloads/rospw/build/sensors_demos_gazebo/install.log'\n"}
+[1.552138] (usb_cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.582927] (camera_subscriber) StdoutLine: {'line': b'running egg_info\n'}
+[1.584163] (camera_subscriber) StdoutLine: {'line': b'creating ../../build/camera_subscriber/camera_subscriber.egg-info\n'}
+[1.584534] (camera_subscriber) StdoutLine: {'line': b'writing ../../build/camera_subscriber/camera_subscriber.egg-info/PKG-INFO\n'}
+[1.584932] (camera_subscriber) StdoutLine: {'line': b'writing dependency_links to ../../build/camera_subscriber/camera_subscriber.egg-info/dependency_links.txt\n'}
+[1.585188] (camera_subscriber) StdoutLine: {'line': b'writing entry points to ../../build/camera_subscriber/camera_subscriber.egg-info/entry_points.txt\n'}
+[1.585432] (camera_subscriber) StdoutLine: {'line': b'writing requirements to ../../build/camera_subscriber/camera_subscriber.egg-info/requires.txt\n'}
+[1.585586] (camera_subscriber) StdoutLine: {'line': b'writing top-level names to ../../build/camera_subscriber/camera_subscriber.egg-info/top_level.txt\n'}
+[1.585910] (camera_subscriber) StdoutLine: {'line': b"writing manifest file '../../build/camera_subscriber/camera_subscriber.egg-info/SOURCES.txt'\n"}
+[1.587243] (sensors_demos_gazebo) CommandEnded: {'returncode': 0}
+[1.590035] (camera_subscriber) StdoutLine: {'line': b"reading manifest file '../../build/camera_subscriber/camera_subscriber.egg-info/SOURCES.txt'\n"}
+[1.590908] (camera_subscriber) StdoutLine: {'line': b"writing manifest file '../../build/camera_subscriber/camera_subscriber.egg-info/SOURCES.txt'\n"}
+[1.591056] (camera_subscriber) StdoutLine: {'line': b'running build\n'}
+[1.591170] (camera_subscriber) StdoutLine: {'line': b'running build_py\n'}
+[1.591288] (camera_subscriber) StdoutLine: {'line': b'creating /home/pw/Downloads/rospw/build/camera_subscriber/build\n'}
+[1.591414] (camera_subscriber) StdoutLine: {'line': b'creating /home/pw/Downloads/rospw/build/camera_subscriber/build/lib\n'}
+[1.591541] (camera_subscriber) StdoutLine: {'line': b'creating /home/pw/Downloads/rospw/build/camera_subscriber/build/lib/camera_subscriber\n'}
+[1.591668] (camera_subscriber) StdoutLine: {'line': b'copying camera_subscriber/__init__.py -> /home/pw/Downloads/rospw/build/camera_subscriber/build/lib/camera_subscriber\n'}
+[1.591793] (camera_subscriber) StdoutLine: {'line': b'copying camera_subscriber/camera_node.py -> /home/pw/Downloads/rospw/build/camera_subscriber/build/lib/camera_subscriber\n'}
+[1.592137] (camera_subscriber) StdoutLine: {'line': b'running install\n'}
+[1.592297] (camera_subscriber) StdoutLine: {'line': b'running install_lib\n'}
+[1.593837] (camera_subscriber) StdoutLine: {'line': b'creating /home/pw/Downloads/rospw/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber\n'}
+[1.594022] (camera_subscriber) StdoutLine: {'line': b'copying /home/pw/Downloads/rospw/build/camera_subscriber/build/lib/camera_subscriber/__init__.py -> /home/pw/Downloads/rospw/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber\n'}
+[1.594164] (camera_subscriber) StdoutLine: {'line': b'copying /home/pw/Downloads/rospw/build/camera_subscriber/build/lib/camera_subscriber/camera_node.py -> /home/pw/Downloads/rospw/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber\n'}
+[1.594737] (camera_subscriber) StdoutLine: {'line': b'byte-compiling /home/pw/Downloads/rospw/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber/__init__.py to __init__.cpython-310.pyc\n'}
+[1.596103] (camera_subscriber) StdoutLine: {'line': b'byte-compiling /home/pw/Downloads/rospw/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber/camera_node.py to camera_node.cpython-310.pyc\n'}
+[1.596391] (camera_subscriber) StdoutLine: {'line': b'running install_data\n'}
+[1.596744] (camera_subscriber) StdoutLine: {'line': b'creating /home/pw/Downloads/rospw/install/camera_subscriber/share/ament_index\n'}
+[1.600079] (camera_subscriber) StdoutLine: {'line': b'creating /home/pw/Downloads/rospw/install/camera_subscriber/share/ament_index/resource_index\n'}
+[1.600265] (camera_subscriber) StdoutLine: {'line': b'creating /home/pw/Downloads/rospw/install/camera_subscriber/share/ament_index/resource_index/packages\n'}
+[1.600399] (camera_subscriber) StdoutLine: {'line': b'copying resource/camera_subscriber -> /home/pw/Downloads/rospw/install/camera_subscriber/share/ament_index/resource_index/packages\n'}
+[1.600533] (camera_subscriber) StdoutLine: {'line': b'copying package.xml -> /home/pw/Downloads/rospw/install/camera_subscriber/share/camera_subscriber\n'}
+[1.600665] (camera_subscriber) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.600927] (camera_subscriber) StdoutLine: {'line': b'Copying ../../build/camera_subscriber/camera_subscriber.egg-info to /home/pw/Downloads/rospw/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber-0.0.0-py3.10.egg-info\n'}
+[1.603129] (camera_subscriber) StdoutLine: {'line': b'running install_scripts\n'}
+[1.607260] (usb_cam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.607735] (-) TimerEvent: {}
+[1.611352] (usb_cam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.611940] (sensors_demos_gazebo) JobEnded: {'identifier': 'sensors_demos_gazebo', 'rc': 0}
+[1.628265] (camera_subscriber) StdoutLine: {'line': b'Installing camera_node script to /home/pw/Downloads/rospw/install/camera_subscriber/lib/camera_subscriber\n'}
+[1.628683] (camera_subscriber) StdoutLine: {'line': b"writing list of installed files to '/home/pw/Downloads/rospw/build/camera_subscriber/install.log'\n"}
+[1.666781] (camera_subscriber) CommandEnded: {'returncode': 0}
+[1.673977] (camera_subscriber) JobEnded: {'identifier': 'camera_subscriber', 'rc': 0}
+[1.707077] (usb_cam) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.707819] (-) TimerEvent: {}
+[1.733239] (usb_cam) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.773599] (usb_cam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.782146] (usb_cam) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.807920] (-) TimerEvent: {}
+[1.857317] (usb_cam) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.857577] (usb_cam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.908039] (-) TimerEvent: {}
+[1.932007] (usb_cam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.933273] (usb_cam) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.008159] (-) TimerEvent: {}
+[2.108507] (-) TimerEvent: {}
+[2.208898] (-) TimerEvent: {}
+[2.309314] (-) TimerEvent: {}
+[2.316528] (usb_cam) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[2.320885] (usb_cam) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[2.321853] (usb_cam) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[2.335845] (usb_cam) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[2.372550] (usb_cam) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[2.389712] (usb_cam) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[2.409439] (-) TimerEvent: {}
+[2.430342] (usb_cam) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[2.448259] (usb_cam) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[2.490567] (usb_cam) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.508795] (usb_cam) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.509513] (-) TimerEvent: {}
+[2.516409] (usb_cam) StderrLine: {'line': b'\x1b[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/usb_cam` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.\x1b[0m\n'}
+[2.519971] (usb_cam) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.525291] (usb_cam) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.525706] (usb_cam) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/pw/Downloads/rospw/src/usb_cam/include\n'}
+[2.525864] (usb_cam) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.530858] (usb_cam) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.531037] (usb_cam) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.532089] (usb_cam) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.533789] (usb_cam) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.534975] (usb_cam) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.540545] (usb_cam) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.540852] (usb_cam) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.541893] (usb_cam) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.544593] (usb_cam) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.577750] (usb_cam) StdoutLine: {'line': b'-- Generating done\n'}
+[2.588404] (usb_cam) StdoutLine: {'line': b'-- Build files have been written to: /home/pw/Downloads/rospw/build/usb_cam\n'}
+[2.603247] (usb_cam) CommandEnded: {'returncode': 0}
+[2.603986] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'build'}
+[2.604848] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pw/Downloads/rospw/build/usb_cam', '--', '-j4', '-l4'], 'cwd': '/home/pw/Downloads/rospw/build/usb_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pw'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pw/Downloads/rospw/install/usb_cam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pw'), ('OLDPWD', '/home/pw/Downloads/rospw'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1272'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=aaffc496fffca79e10696bd8695beccf'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pw/Downloads/rospw/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pw'), ('_', '/home/pw/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pw/.local/bin:/opt/ros/humble/bin:/home/pw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/PW:@/tmp/.ICE-unix/1272,unix/PW:/tmp/.ICE-unix/1272'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eadf21d5_d91b_462f_9066_ca7bf6e187c4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LZKFI3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.170'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pw/Downloads/rospw/install/usb_cam:/home/pw/Downloads/rospw/install/sensors_demos_gazebo:/home/pw/Downloads/rospw/install/camera_subscriber:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pw/Downloads/rospw/build/usb_cam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=aaffc496fffca79e10696bd8695beccf'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pw/Downloads/rospw/install/sensors_demos_gazebo/lib/python3.10/site-packages:/home/pw/Downloads/rospw/install/camera_subscriber/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pw/Downloads/rospw/install/usb_cam:/home/pw/Downloads/rospw/install/sensors_demos_gazebo:/home/pw/Downloads/rospw/install/camera_subscriber:/opt/ros/humble')]), 'shell': False}
+[2.609638] (-) TimerEvent: {}
+[2.666631] (usb_cam) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[2.666948] (usb_cam) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam_node_exe.dir/rclcpp_components/node_main_usb_cam_node_exe.cpp.o\x1b[0m\n'}
+[2.667396] (usb_cam) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[2.667579] (usb_cam) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o\x1b[0m\n'}
+[2.712900] (-) TimerEvent: {}
+[2.813261] (-) TimerEvent: {}
+[2.913643] (-) TimerEvent: {}
+[3.014050] (-) TimerEvent: {}
+[3.114435] (-) TimerEvent: {}
+[3.214814] (-) TimerEvent: {}
+[3.315228] (-) TimerEvent: {}
+[3.415621] (-) TimerEvent: {}
+[3.516024] (-) TimerEvent: {}
+[3.618095] (-) TimerEvent: {}
+[3.718499] (-) TimerEvent: {}
+[3.818915] (-) TimerEvent: {}
+[3.919323] (-) TimerEvent: {}
+[4.019766] (-) TimerEvent: {}
+[4.121086] (-) TimerEvent: {}
+[4.221502] (-) TimerEvent: {}
+[4.323932] (-) TimerEvent: {}
+[4.424393] (-) TimerEvent: {}
+[4.524873] (-) TimerEvent: {}
+[4.625939] (usb_cam) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[4.626238] (-) TimerEvent: {}
+[4.677474] (usb_cam) StdoutLine: {'line': b'[ 35%] Built target gtest_main\n'}
+[4.726378] (-) TimerEvent: {}
+[4.826805] (-) TimerEvent: {}
+[4.927232] (-) TimerEvent: {}
+[5.027659] (-) TimerEvent: {}
+[5.128914] (-) TimerEvent: {}
+[5.229315] (-) TimerEvent: {}
+[5.329951] (-) TimerEvent: {}
+[5.430373] (-) TimerEvent: {}
+[5.530916] (-) TimerEvent: {}
+[5.631327] (-) TimerEvent: {}
+[5.731727] (-) TimerEvent: {}
+[5.832148] (-) TimerEvent: {}
+[5.932558] (-) TimerEvent: {}
+[6.032920] (-) TimerEvent: {}
+[6.133354] (-) TimerEvent: {}
+[6.233824] (-) TimerEvent: {}
+[6.334260] (-) TimerEvent: {}
+[6.434943] (-) TimerEvent: {}
+[6.535345] (-) TimerEvent: {}
+[6.560721] (usb_cam) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libusb_cam.so\x1b[0m\n'}
+[6.635474] (-) TimerEvent: {}
+[6.735933] (-) TimerEvent: {}
+[6.836304] (-) TimerEvent: {}
+[6.936686] (-) TimerEvent: {}
+[6.966796] (usb_cam) StdoutLine: {'line': b'[ 42%] Built target usb_cam\n'}
+[7.000742] (usb_cam) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam_node.dir/src/usb_cam_node.cpp.o\x1b[0m\n'}
+[7.036823] (-) TimerEvent: {}
+[7.137211] (-) TimerEvent: {}
+[7.237596] (-) TimerEvent: {}
+[7.337974] (-) TimerEvent: {}
+[7.438346] (-) TimerEvent: {}
+[7.538729] (-) TimerEvent: {}
+[7.639085] (-) TimerEvent: {}
+[7.739425] (-) TimerEvent: {}
+[7.839796] (-) TimerEvent: {}
+[7.856923] (usb_cam) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable usb_cam_node_exe\x1b[0m\n'}
+[7.939976] (-) TimerEvent: {}
+[8.040504] (-) TimerEvent: {}
+[8.141225] (-) TimerEvent: {}
+[8.241918] (-) TimerEvent: {}
+[8.332645] (usb_cam) StdoutLine: {'line': b'[ 57%] Built target usb_cam_node_exe\n'}
+[8.342007] (-) TimerEvent: {}
+[8.442314] (-) TimerEvent: {}
+[8.511938] (usb_cam) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[8.542452] (-) TimerEvent: {}
+[8.573002] (usb_cam) StdoutLine: {'line': b'[ 64%] Built target gtest\n'}
+[8.600095] (usb_cam) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/test_usb_cam_utils.dir/test/test_usb_cam_utils.cpp.o\x1b[0m\n'}
+[8.602100] (usb_cam) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/test_pixel_formats.dir/test/test_pixel_formats.cpp.o\x1b[0m\n'}
+[8.643922] (-) TimerEvent: {}
+[8.744313] (-) TimerEvent: {}
+[8.844670] (-) TimerEvent: {}
+[8.945067] (-) TimerEvent: {}
+[9.045428] (-) TimerEvent: {}
+[9.146910] (-) TimerEvent: {}
+[9.247269] (-) TimerEvent: {}
+[9.347627] (-) TimerEvent: {}
+[9.448945] (-) TimerEvent: {}
+[9.549359] (-) TimerEvent: {}
+[9.649880] (-) TimerEvent: {}
+[9.750281] (-) TimerEvent: {}
+[9.850700] (-) TimerEvent: {}
+[9.951164] (-) TimerEvent: {}
+[10.051747] (-) TimerEvent: {}
+[10.152307] (-) TimerEvent: {}
+[10.252728] (-) TimerEvent: {}
+[10.353157] (-) TimerEvent: {}
+[10.453700] (-) TimerEvent: {}
+[10.554153] (-) TimerEvent: {}
+[10.654683] (-) TimerEvent: {}
+[10.755189] (-) TimerEvent: {}
+[10.855596] (-) TimerEvent: {}
+[10.955989] (-) TimerEvent: {}
+[11.056500] (-) TimerEvent: {}
+[11.157005] (-) TimerEvent: {}
+[11.216674] (usb_cam) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable test_usb_cam_utils\x1b[0m\n'}
+[11.257121] (-) TimerEvent: {}
+[11.357584] (-) TimerEvent: {}
+[11.457972] (-) TimerEvent: {}
+[11.558408] (-) TimerEvent: {}
+[11.658891] (-) TimerEvent: {}
+[11.733737] (usb_cam) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable test_pixel_formats\x1b[0m\n'}
+[11.759014] (-) TimerEvent: {}
+[11.787814] (usb_cam) StdoutLine: {'line': b'[ 92%] Built target test_usb_cam_utils\n'}
+[11.859173] (-) TimerEvent: {}
+[11.959575] (-) TimerEvent: {}
+[12.059926] (-) TimerEvent: {}
+[12.112385] (usb_cam) StdoutLine: {'line': b'[ 92%] Built target test_pixel_formats\n'}
+[12.160050] (-) TimerEvent: {}
+[12.260381] (-) TimerEvent: {}
+[12.360713] (-) TimerEvent: {}
+[12.461027] (-) TimerEvent: {}
+[12.561343] (-) TimerEvent: {}
+[12.661667] (-) TimerEvent: {}
+[12.762014] (-) TimerEvent: {}
+[12.862336] (-) TimerEvent: {}
+[12.962670] (-) TimerEvent: {}
+[13.063019] (-) TimerEvent: {}
+[13.163362] (-) TimerEvent: {}
+[13.263667] (-) TimerEvent: {}
+[13.363990] (-) TimerEvent: {}
+[13.464291] (-) TimerEvent: {}
+[13.564618] (-) TimerEvent: {}
+[13.664951] (-) TimerEvent: {}
+[13.765277] (-) TimerEvent: {}
+[13.865566] (-) TimerEvent: {}
+[13.965853] (-) TimerEvent: {}
+[14.066165] (-) TimerEvent: {}
+[14.166513] (-) TimerEvent: {}
+[14.266874] (-) TimerEvent: {}
+[14.367176] (-) TimerEvent: {}
+[14.467477] (-) TimerEvent: {}
+[14.567773] (-) TimerEvent: {}
+[14.668086] (-) TimerEvent: {}
+[14.768381] (-) TimerEvent: {}
+[14.868673] (-) TimerEvent: {}
+[14.968975] (-) TimerEvent: {}
+[15.069277] (-) TimerEvent: {}
+[15.169584] (-) TimerEvent: {}
+[15.269899] (-) TimerEvent: {}
+[15.370198] (-) TimerEvent: {}
+[15.470525] (-) TimerEvent: {}
+[15.570853] (-) TimerEvent: {}
+[15.671143] (-) TimerEvent: {}
+[15.771423] (-) TimerEvent: {}
+[15.871717] (-) TimerEvent: {}
+[15.972028] (-) TimerEvent: {}
+[16.072324] (-) TimerEvent: {}
+[16.172616] (-) TimerEvent: {}
+[16.272917] (-) TimerEvent: {}
+[16.373214] (-) TimerEvent: {}
+[16.473507] (-) TimerEvent: {}
+[16.573805] (-) TimerEvent: {}
+[16.674114] (-) TimerEvent: {}
+[16.774489] (-) TimerEvent: {}
+[16.874914] (-) TimerEvent: {}
+[16.975298] (-) TimerEvent: {}
+[17.050328] (usb_cam) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libusb_cam_node.so\x1b[0m\n'}
+[17.075408] (-) TimerEvent: {}
+[17.175737] (-) TimerEvent: {}
+[17.276199] (-) TimerEvent: {}
+[17.376545] (-) TimerEvent: {}
+[17.476922] (-) TimerEvent: {}
+[17.577279] (-) TimerEvent: {}
+[17.661823] (usb_cam) StdoutLine: {'line': b'[100%] Built target usb_cam_node\n'}
+[17.673481] (usb_cam) CommandEnded: {'returncode': 0}
+[17.674232] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'install'}
+[17.677372] (-) TimerEvent: {}
+[17.684039] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pw/Downloads/rospw/build/usb_cam'], 'cwd': '/home/pw/Downloads/rospw/build/usb_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pw'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pw/Downloads/rospw/install/usb_cam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pw'), ('OLDPWD', '/home/pw/Downloads/rospw'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1272'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=aaffc496fffca79e10696bd8695beccf'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pw/Downloads/rospw/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pw'), ('_', '/home/pw/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pw/.local/bin:/opt/ros/humble/bin:/home/pw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/PW:@/tmp/.ICE-unix/1272,unix/PW:/tmp/.ICE-unix/1272'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eadf21d5_d91b_462f_9066_ca7bf6e187c4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LZKFI3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.170'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pw/Downloads/rospw/install/usb_cam:/home/pw/Downloads/rospw/install/sensors_demos_gazebo:/home/pw/Downloads/rospw/install/camera_subscriber:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pw/Downloads/rospw/build/usb_cam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=aaffc496fffca79e10696bd8695beccf'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pw/Downloads/rospw/install/sensors_demos_gazebo/lib/python3.10/site-packages:/home/pw/Downloads/rospw/install/camera_subscriber/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pw/Downloads/rospw/install/usb_cam:/home/pw/Downloads/rospw/install/sensors_demos_gazebo:/home/pw/Downloads/rospw/install/camera_subscriber:/opt/ros/humble')]), 'shell': False}
+[17.693826] (usb_cam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.694211] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/environment/library_path.sh\n'}
+[17.694467] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/environment/library_path.dsv\n'}
+[17.694789] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/lib/usb_cam/usb_cam_node_exe\n'}
+[17.695594] (usb_cam) StdoutLine: {'line': b'-- Set runtime path of "/home/pw/Downloads/rospw/install/usb_cam/lib/usb_cam/usb_cam_node_exe" to ""\n'}
+[17.695839] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/lib/usb_cam/show_image.py\n'}
+[17.696071] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/lib/libusb_cam.so\n'}
+[17.697191] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/lib/libusb_cam_node.so\n'}
+[17.701417] (usb_cam) StdoutLine: {'line': b'-- Set runtime path of "/home/pw/Downloads/rospw/install/usb_cam/lib/libusb_cam_node.so" to ""\n'}
+[17.701695] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/include\n'}
+[17.701925] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/include/usb_cam\n'}
+[17.702118] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/include/usb_cam/usb_cam.hpp\n'}
+[17.702291] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/include/usb_cam/utils.hpp\n'}
+[17.702447] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/include/usb_cam/usb_cam_node.hpp\n'}
+[17.702600] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/include/usb_cam/constants.hpp\n'}
+[17.702788] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/include/usb_cam/formats\n'}
+[17.702977] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp\n'}
+[17.703147] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/include/usb_cam/formats/rgb.hpp\n'}
+[17.703300] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/include/usb_cam/formats/utils.hpp\n'}
+[17.703536] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/include/usb_cam/formats/uyvy.hpp\n'}
+[17.703805] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/include/usb_cam/formats/yuyv.hpp\n'}
+[17.704030] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/include/usb_cam/formats/mjpeg.hpp\n'}
+[17.704183] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp\n'}
+[17.704399] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/include/usb_cam/formats/m420.hpp\n'}
+[17.704699] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/include/usb_cam/formats/mono.hpp\n'}
+[17.704999] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/include/usb_cam/conversions.hpp\n'}
+[17.705218] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/pw/Downloads/rospw/install/usb_cam/lib/libusb_cam_node.so\n'}
+[17.705482] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/launch\n'}
+[17.705661] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/launch/__init__.py\n'}
+[17.705845] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/launch/camera_config.py\n'}
+[17.706039] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/launch/camera.launch.py\n'}
+[17.706259] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/config\n'}
+[17.706478] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/config/params_2.yaml\n'}
+[17.706687] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/config/camera_info.yaml\n'}
+[17.706871] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/config/params_1.yaml\n'}
+[17.707106] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam\n'}
+[17.707392] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam\n'}
+[17.707639] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh\n'}
+[17.707873] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv\n'}
+[17.708118] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/environment/path.sh\n'}
+[17.708330] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/environment/path.dsv\n'}
+[17.708630] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/local_setup.bash\n'}
+[17.708834] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/local_setup.sh\n'}
+[17.709069] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/local_setup.zsh\n'}
+[17.709273] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/local_setup.dsv\n'}
+[17.709478] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/package.dsv\n'}
+[17.709724] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/ament_index/resource_index/packages/usb_cam\n'}
+[17.709997] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam\n'}
+[17.710248] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.710466] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.710677] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.710894] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake\n'}
+[17.711125] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake\n'}
+[17.711313] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/pw/Downloads/rospw/install/usb_cam/share/usb_cam/package.xml\n'}
+[17.713313] (usb_cam) CommandEnded: {'returncode': 0}
+[17.730234] (usb_cam) JobEnded: {'identifier': 'usb_cam', 'rc': 0}
+[17.731198] (-) EventReactorShutdown: {}
