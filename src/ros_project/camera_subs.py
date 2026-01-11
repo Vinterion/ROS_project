@@ -2,6 +2,7 @@
 import rclpy 
 from rclpy.node import Node 
 from sensor_msgs.msg import Image 
+from geometry_msgs.msg import Point
 from cv_bridge import CvBridge 
 import cv2
 import numpy as np
@@ -11,7 +12,8 @@ class camera_subs(Node):
         super().__init__('camera_subscriber')
         self.window_name = "camera"
         self.subscription = self.create_subscription(Image,'image_raw',self.listener_callback,10)
-        self.subscription  
+        self.subscription
+        self.publisher = self.create_publisher(Point, '/point', 10)
         self.point = None
 
     def listener_callback(self, image_data):
@@ -25,6 +27,10 @@ class camera_subs(Node):
     def draw_rectangle(self, event, x, y, flags, param):
         if event == cv2.EVENT_LBUTTONDOWN:
             self.point = (x,y)
+            p = Point()
+            p.x = x
+            p.y = y
+            self.publisher(p)
 
 if __name__ == '__main__':
     rclpy.init()
