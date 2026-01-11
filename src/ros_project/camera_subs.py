@@ -13,7 +13,7 @@ class camera_subs(Node):
         self.window_name = "camera"
         self.subscription = self.create_subscription(Image,'image_raw',self.listener_callback,10)
         self.subscription
-        self.publisher = self.create_publisher(Point, '/point', 10)
+        self.publisher_ = self.create_publisher(Point, '/point', 10)
         self.point = None
 
     def listener_callback(self, image_data):
@@ -30,7 +30,7 @@ class camera_subs(Node):
             p = Point()
             p.x = x
             p.y = y
-            self.publisher(p)
+            self.publisher_.publish(p)
 
 if __name__ == '__main__':
     rclpy.init()

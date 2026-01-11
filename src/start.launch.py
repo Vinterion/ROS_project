@@ -18,8 +18,8 @@ def generate_launch_description():
         ),
         Node(
             package='ros_project',
-            executable='robot_cont.py',
-            name='robot_cont.py',
+            executable='robot_cont',
+            name='robot_cont',
             output='screen'
         )
     ])

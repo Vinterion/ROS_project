@@ -10,7 +10,7 @@ class robot_cont(Node):
         self.window_name = "robot_contloler"
         self.subscription = self.create_subscription(Point,'/point',self.listener_callback,10)
         self.subscription 
-        self.publisher = self.create_publisher(JointTrajectory, "/scaled_joint_trajectory_controller/joint_trajectory", 10)
+        self.publisher_ = self.create_publisher(JointTrajectory, "/scaled_joint_trajectory_controller/joint_trajectory", 10)
         self.timer = self.create_timer(0.1, self.move_robot)
         self.traj = JointTrajectory()
         self.traj.joint_names = [
@@ -34,7 +34,7 @@ class robot_cont(Node):
         point.time_from_start = Time(sec=2, nanosec=0)
         point.positions = [0.0, 0.5, 0.0, 0.0, 0.0, 0.0] if self.go_up else [0.0, -0.5, 0.0, 0.0, 0.0, 0.0]
         self.traj = [point]
-        self.publisher.publish(self.traj)
+        self.publisher_.publish(self.traj)
 
 
 if __name__ == '__main__':
