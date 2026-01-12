@@ -14,6 +14,6 @@ cd /ros2_ws
 colcon build
 source ./install/setup.sh
 
-ros2 launch ros_project start.launch.py
+ros2 launch ros_project start.launch.py &
 
 exec "$@"
