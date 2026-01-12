@@ -31,10 +31,11 @@ class camera_subs(Node):
             p.x = x
             p.y = y
             self.publisher_.publish(p)
-
-if __name__ == '__main__':
+def main():
     rclpy.init()
     camera_node = camera_subs()
     rclpy.spin(camera_node)
     camera_node.destroy_node()
     rclpy.shutdown()
+if __name__ == '__main__':
+    main()

@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-import rclpy 
+import rclpy
+from rclpy.node import Node
 from geometry_msgs.msg import Point
 from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
-from builtin_interfaces.msg import Time
+from builtin_interfaces.msg import Duration
 
 class robot_cont(Node):
     def __init__(self):
@@ -31,15 +32,16 @@ class robot_cont(Node):
 
     def move_robot(self):
         point = JointTrajectoryPoint()
-        point.time_from_start = Time(sec=2, nanosec=0)
+        point.time_from_start = Duration(sec=2, nanosec=0)
         point.positions = [0.0, 0.5, 0.0, 0.0, 0.0, 0.0] if self.go_up else [0.0, -0.5, 0.0, 0.0, 0.0, 0.0]
-        self.traj = [point]
+        self.traj.points = [point]
         self.publisher_.publish(self.traj)
 
-
-if __name__ == '__main__':
+def main():
     rclpy.init()
     cont_node = robot_cont()
     rclpy.spin(cont_node)
     cont_node.destroy_node()
     rclpy.shutdown()
+if __name__ == '__main__':
+    main()
