@@ -28,8 +28,8 @@ class camera_subs(Node):
         if event == cv2.EVENT_LBUTTONDOWN:
             self.point = (x,y)
             p = Point()
-            p.x = x
-            p.y = y
+            p.x = float(x)
+            p.y = float(y)
             self.publisher_.publish(p)
 def main():
     rclpy.init()

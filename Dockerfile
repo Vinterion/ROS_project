@@ -3,11 +3,11 @@ FROM osrf/ros:humble-desktop
 RUN apt-get update && apt-get install -y \
     python3-pip \
     ros-humble-cv-bridge \
-    ros-humble-usb-cam \
+    ros-humble-image-publisher \
     ros-humble-ur \
     && rm -rf /var/lib/apt/lists/*
 
-RUN pip3 install "numpy<2" opencv-contrib-python-headless
+RUN pip3 install "numpy<2" opencv-contrib-python
 
 SHELL ["/bin/bash", "-c"]
 

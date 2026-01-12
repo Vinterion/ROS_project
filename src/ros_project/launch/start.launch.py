@@ -4,12 +4,19 @@ from launch import LaunchDescription
 from launch_ros.actions import Node
 
 def generate_launch_description():
+    usb_cam_cfg = os.path.join(
+        get_package_share_directory("ros_project"),
+        'config',
+        'params.yaml'
+    )
     return LaunchDescription([
-         Node(
-            package='usb_cam',
-            executable='usb_cam_node_exe',
-            name='usb_cam',
-            parameters=[{'framerate': 30.0}] # Możesz dodać więcej parametrów
+        Node(
+            package='image_publisher',
+            executable='image_publisher_node',
+            name='fake_camera',
+            arguments=["/src/src/fake_came.png"], 
+            parameters=[{'publish_frequency': 30.0}],
+            remappings=[('image_raw', '/image_raw')]
         ),
        Node(
             package='ros_project',
